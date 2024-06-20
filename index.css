@@ -1,0 +1,94 @@
+*{
+    list-style: none;
+}
+a{
+text-decoration: none;
+color: white;
+
+}
+.mm{
+    color: white;
+}
+.mm>i{
+    margin: .8rem;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.whi{
+    color: white;
+    margin-top: 5rem;
+}
+.r{
+    background-image: url(https://www.thebritishcollege.edu.np/uploads/medias/1602575046TBC_Building.jpg),  linear-gradient(rgba(35, 32, 32, 0.762), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+    background-size: cover;
+   
+  
+}
+@media (min-width:768px ) {
+    .m{
+        display: none;
+    }
+  
+    .f{
+        display: flex;
+        gap: 3rem;
+        margin: 3rem 4rem ;
+    }
+    
+.wi{
+    width: 100px ;
+    margin: 2rem 5rem;
+   
+}
+.nma{
+    display: block;
+}
+.re{
+    color: white;
+    display: flex;
+ justify-content: space-between;
+   
+}
+}
+
+
+
+@media (max-width:768px) {
+    
+    .nma{
+        display: none;
+    }
+    .wi{
+        width: 100px ;
+      margin: 1rem 2rem;
+       
+    }
+    
+.re{
+    color: white;
+    display: flex;
+  justify-content:space-between;
+   
+}
+
+.a{
+    margin: 2rem 2rem;
+   
+}
+.m{
+    margin: 2rem 3rem;
+}
+}
+.bi{
+    margin-left: 4px;
+   
+}
+

@@ -1,0 +1,147 @@
+ *{
+    list-style: none;
+}
+a{
+text-decoration: none;
+color: white;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.r{
+    background-image:
+    linear-gradient(rgba(16, 8, 8, 0.962), rgb(74, 40, 41));
+    background-blend-mode: overlay;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+    background-size: cover;
+   
+  
+}
+@media (min-width:768px ) {
+    .m{
+        display: none;
+    }
+  
+    .f{
+        display: flex;
+        gap: 3rem;
+        margin: 3rem 4rem ;
+    }
+    
+.wi{
+    width: 100px ;
+    margin: 2rem 5rem;
+   
+}
+.nma{
+    display: block;
+}
+.re{
+    color: white;
+    display: flex;
+ justify-content: space-between;
+   
+}
+}
+
+
+
+@media (max-width:768px) {
+    
+    .nma{
+        display: none;
+    }
+    .wi{
+        width: 100px ;
+      margin: 1rem 2rem;
+       
+    }
+    
+.re{
+    color: white;
+    display: flex;
+  justify-content:space-between;
+   
+}
+
+.a{
+    margin: 2rem 2rem;
+   
+}
+.m{
+    margin: 2rem 3rem;
+}
+}
+.al{
+    color:white;
+    text-align: center;
+    margin: 1rem 1rem;
+    
+}
+.alias{
+    list-style: disc;
+    text-align:left;
+}
+
+.w{
+    
+        background-image:
+        linear-gradient(rgba(121, 114, 114, 0.734), rgba(14, 5, 69, 0.904));
+        background-blend-mode: overlay;
+            height: 100vh;
+            padding: 0px;
+            margin: 0px;
+        background-size: cover;
+       
+      
+    
+}
+.we{
+    color: white;
+    font-size: 2rem;
+    
+}
+.box0{
+    color: white;
+ 
+}
+.box{
+    border: 1px black solid;
+    width: fit-content;
+    padding: 3rem;
+    margin: auto;
+    
+    text-align: center;
+    background-image:
+       linear-gradient(rgba(35, 32, 32, 0.762), rgba(0, 0, 0, 0.5));
+
+    ;
+}
+.label{
+    text-align: left;
+}
+
+.input{
+    width: 300px;
+    outline: none;
+    padding: .4rem;
+}
+.p{
+    background-image:
+    linear-gradient(rgba(5, 5, 0, 0.992), rgba(233, 236, 237, 0.5));
+    background-blend-mode: overlay;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+    background-size: cover;
+}
+.gal{
+    
+    display: flex;
+}
